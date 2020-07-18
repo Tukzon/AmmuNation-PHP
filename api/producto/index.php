@@ -1,4 +1,5 @@
 <?php
+session_start();
 require '../../vendor/autoload.php';
 $uri="mongodb://localhost";
 $client=new MongoDB\Client($uri);

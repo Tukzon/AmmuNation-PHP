@@ -5,7 +5,7 @@ if(!isset($_GET['id'])){
 }else{
     session_start();
     if(!isset($_SESSION['conexion'])){
-        echo json_encode(false);
+        //echo json_encode(false);
     } // else{
         require '../../vendor/autoload.php';
 
